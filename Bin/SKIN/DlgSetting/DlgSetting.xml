@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="320,591" roundcorner="4,4">
+	<Font name="微软雅黑" size="12" default="true" />
+	<Font id="1" name="楷体" size="14" />
+    <VerticalLayout bkcolor="#FFFFFFFF">
+		<HorizontalLayout height="30">
+			<HorizontalLayout />
+			<Button name="btnClose" width="30" normalimage="\\DlgSetting\\btnClose.png" hotimage="\\DlgSetting\\btnCloseHot.png" />
+		</HorizontalLayout>
+        <HorizontalLayout name="toolbar_main" width="240" height="30" padding="40,0,0,0" bkimage="\\DlgSetting\\OptTitle.png">
+            <Option name="optCommon" group="toolbar_main" selected="true" width="60" height="30" textcolor="#FF288ADD" selectedtextcolor="#FFFFFFFF" selectedimage="\\DlgSetting\\optLeftSelect.png"/>
+			<Option name="optLanguage" group="toolbar_main" width="60" height="30" textcolor="#FF288ADD" selectedtextcolor="#FFFFFFFF" selectedimage="\\DlgSetting\\optCenterSelect.png"/>
+			<Option name="optPhoto" group="toolbar_main" width="60" height="30" textcolor="#FF288ADD" selectedtextcolor="#FFFFFFFF" selectedimage="\\DlgSetting\\optCenterSelect.png"/>
+			<Option name="optUpdate" group="toolbar_main" width="60" height="30" textcolor="#FF288ADD" selectedtextcolor="#FFFFFFFF" selectedimage="\\DlgSetting\\optRightSelect.png"/>
+        </HorizontalLayout>
+		<TabLayout name="tabSetting" width="240" height="400" padding="40,30,0,0">
+                <VerticalLayout >
+					<Option name="optShowLogWnd" height="16" textpadding="20,0,0,0" textcolor="#FF666666" align="left" normalimage="file='\\DlgSetting\\OptNormal.png' dest='0,0,16,16'" selectedimage="file='\\DlgSetting\\OptSelect.png' dest='0,0,16,16'"/>
+					<Option name="optShowParName" height="16" textpadding="20,0,0,0" padding="0,20,0,0" textcolor="#FF666666" align="left" normalimage="file='\\DlgSetting\\OptNormal.png' dest='0,0,16,16'" selectedimage="file='\\DlgSetting\\OptSelect.png' dest='0,0,16,16'"/>
+					<Option name="optMusic" height="16" textpadding="20,0,0,0" padding="0,20,0,0" textcolor="#FF666666" align="left" normalimage="file='\\DlgSetting\\OptNormal.png' dest='0,0,16,16'" selectedimage="file='\\DlgSetting\\OptSelect.png' dest='0,0,16,16'"/>
+					<Option name="optFullScreen" height="16" textpadding="20,0,0,0" padding="0,20,0,0" textcolor="#FF666666" align="left" normalimage="file='\\DlgSetting\\OptNormal.png' dest='0,0,16,16'" selectedimage="file='\\DlgSetting\\OptSelect.png' dest='0,0,16,16'"/>
+					<Option name="optProxy" height="16" textpadding="20,0,0,0" padding="0,20,0,0" textcolor="#FF666666" align="left" normalimage="file='\\DlgSetting\\OptNormal.png' dest='0,0,16,16'" selectedimage="file='\\DlgSetting\\OptSelect.png' dest='0,0,16,16'"/>
+				</VerticalLayout>
+				<VerticalLayout >
+					<Option name="optLangCN" group="optLang" height="20" textpadding="25,0,0,0" textcolor="#FF666666" align="left" normalimage="file='\\DlgSetting\\optLangNormal.png' dest='0,0,20,20'" selectedimage="file='\\DlgSetting\\optLangSelect.png' dest='0,0,20,20'"/>
+					<Option name="optLangTW" group="optLang" height="20" textpadding="25,0,0,0" padding="0,20,0,0" textcolor="#FF666666" align="left" normalimage="file='\\DlgSetting\\optLangNormal.png' dest='0,0,20,20'" selectedimage="file='\\DlgSetting\\optLangSelect.png' dest='0,0,20,20'"/>
+					<Option name="optLangEN" group="optLang" height="20" textpadding="25,0,0,0" padding="0,20,0,0" textcolor="#FF666666" align="left" normalimage="file='\\DlgSetting\\optLangNormal.png' dest='0,0,20,20'" selectedimage="file='\\DlgSetting\\optLangSelect.png' dest='0,0,20,20'"/>
+				</VerticalLayout>
+				<VerticalLayout >
+					<Label name="labPhoto" height="16" textcolor="#FF666666" align="left" />
+					<Edit name="editPhoto" enabled="false" height="30" padding="0,20,0,0" textcolor="#FF666666" align="left" bkimage="\\common\\edit240px.png"/>
+					<HorizontalLayout padding="0,20,0,0" height="24">
+						<HorizontalLayout />
+						<Button name="btnChangePath" width="80" textcolor="#FF288ADD" hottextcolor="#FFFFFFFF" pushedtextcolor="#FF288ADD" normalimage="\\common\\btn80px.png" hotimage="\\common\\btn80pxHot.png"/>
+						<Button name="btnOpen" width="80" padding="20,0,0,0" textcolor="#FF288ADD" hottextcolor="#FFFFFFFF" pushedtextcolor="#FF288ADD" normalimage="\\common\\btn80px.png" hotimage="\\common\\btn80pxHot.png"/>
+					</HorizontalLayout>
+				</VerticalLayout>
+				<VerticalLayout >
+					<Label name="labVersionTip" height="30" align="center" textcolor="#FF666666" font="1" />
+					<Label name="labVersion" padding="0,60,0,0" height="30" align="center" textcolor="#FF333333" font="1" />
+				</VerticalLayout>
+        </TabLayout>
+    </VerticalLayout>
+</Window>

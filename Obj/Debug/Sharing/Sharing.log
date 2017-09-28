@@ -1,0 +1,26 @@
+﻿生成启动时间为 2016/9/22 14:40:49。
+     1>项目“F:\Conference\branches\dev_v3.0\Source\Sharing\Sharing.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“../../obj/Debug/Sharing/Sharing.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         所有输出均为最新。
+         所有输出均为最新。
+         所有输出均为最新。
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"../../bin/Sharing.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:../../lib/ kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"../../obj/Debug/Sharing/Sharing.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\Conference\branches\dev_v3.0\bin\Sharing.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"../../lib/Sharing.lib" /MACHINE:X86 /DLL ../../obj/Debug/Sharing/dllmain.obj
+         ../../obj/Debug/Sharing/Sharing.obj
+         ../../obj/Debug/Sharing/SharingDlg.obj
+         ../../obj/Debug/Sharing/stdafx.obj
+         正在生成代码
+         已完成代码的生成
+         Sharing.vcxproj -> F:\Conference\branches\dev_v3.0\Source\Sharing\../../bin/Sharing.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"../../bin/Sharing.dll;#2" /manifest ../../obj/Debug/Sharing/Sharing.dll.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“../../obj/Debug/Sharing/Sharing.unsuccessfulbuild”。
+         正在对“../../obj/Debug/Sharing/Sharing.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“F:\Conference\branches\dev_v3.0\Source\Sharing\Sharing.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.32
